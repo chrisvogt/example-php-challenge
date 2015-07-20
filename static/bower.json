@@ -1,0 +1,29 @@
+{
+  "name": "static-views_example-php-challenge",
+  "version": "0.9.0",
+  "homepage": "https://github.com/chrisvogt/example-php-challenge",
+  "authors": [
+    "Chris Vogt <mail@chrisvogt.me>"
+  ],
+  "description": "The static views for chrisvogt/example-php-challenge.",
+  "main": "index.html",
+  "keywords": [
+    "static",
+    "views",
+    "example",
+    "app",
+    "prototype"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "octicons": "~2.4.1"
+  }
+}
