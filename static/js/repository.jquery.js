@@ -1,10 +1,10 @@
 /**
- * GitHub Repository Overview
+ * GitHub Repository Overview.
  *
- * @author Chris Vogt <mail@chrisvogt.me>
+ * @author Chris Vogt [mail@chrisvogt.me]
  */
 $(function() {
-    $.ajax({ /** Queries the chrisvogt/projects API. */
+    $.ajax({
         type: "GET",
         dataType: "json",
         url: "commits.json",
@@ -16,12 +16,22 @@ $(function() {
         }
     });
 
+/**
+ * Builds the data table.
+ *
+ * @param {array} data - JSON data to parse.
+ */
     function renderTable(data) {
       for (var i = 0; i < data.length; i++) {
         renderRow(data[i]);
       }
     }
 
+/**
+ * Builds a table row.
+ *
+ * @param {array} data - Data for this row.
+ */
     function renderRow(data) {
       $("#commits").append($('<tr>')
         .append($('<td>')
