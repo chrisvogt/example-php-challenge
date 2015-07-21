@@ -1,0 +1,302 @@
+[
+    {
+        "sha": "6036e4f5a833b27fb474f3bf891c405606fdce19",
+        "timestamp": "2015-07-09T23:35:32Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/6036e4f5a833b27fb474f3bf891c405606fdce19",
+        "author_username": "jasnell",
+        "author_email": "jasnell@gmail.com",
+        "author_url": "https:\/\/github.com\/jasnell",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/439929?v=3",
+        "message": "doc: additional refinement to readable event Per https:\/\/github.com\/joyent\/node\/pull\/25635#discussion_r33973696 Additional refinement to the clarification on the `readable` event Reviewed-By: James M Snell <jasnell@gmail.com> PR-URL: https:\/\/github...."
+    },
+    {
+        "sha": "340e9f0edd3d32aed391e4be40a825b0c706ea87",
+        "timestamp": "2015-07-06T18:50:17Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/340e9f0edd3d32aed391e4be40a825b0c706ea87",
+        "author_username": "jasnell",
+        "author_email": "jasnell@gmail.com",
+        "author_url": "https:\/\/github.com\/jasnell",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/439929?v=3",
+        "message": "doc: readable event clarification per https:\/\/github.com\/joyent\/node\/issues\/14597 Indicate that `'readable'` indicates only that data can be read from the stream, not that there is actually data to be consumed. `readable.read([size])` can still retur..."
+    },
+    {
+        "sha": "daed421e574ba733023d6179b9942bf846cf50d2",
+        "timestamp": "2015-07-06T18:18:06Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/daed421e574ba733023d6179b9942bf846cf50d2",
+        "author_username": "jasnell",
+        "author_email": "jasnell@gmail.com",
+        "author_url": "https:\/\/github.com\/jasnell",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/439929?v=3",
+        "message": "doc: stream.unshift does not reset reading state Per https:\/\/github.com\/joyent\/node\/issues\/14604, Document that performing an `unshift` during a read can have unexpected results. Following the `unshift` with a `push('')` resets the reading state appr..."
+    },
+    {
+        "sha": "423c4335664e565f9a9d0545ee9e7bc3a71873e9",
+        "timestamp": "2015-06-25T19:43:56Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/423c4335664e565f9a9d0545ee9e7bc3a71873e9",
+        "author_username": "danielrentz",
+        "author_email": "danielrentz@users.noreply.github.com",
+        "author_url": "https:\/\/github.com\/danielrentz",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/5064304?v=3",
+        "message": "Update util.markdown Fix for https:\/\/github.com\/joyent\/node\/issues\/25559 (Typo in example of util.deprecate() documentation) Reviewed-By: James M Snell <jasnell@gmail.com> PR-URL: https:\/\/github.com\/joyent\/node\/pull\/25635..."
+    },
+    {
+        "sha": "9faae7abaf89b618e436dba5d5cf119eba930c04",
+        "timestamp": "2015-06-25T23:05:40Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/9faae7abaf89b618e436dba5d5cf119eba930c04",
+        "author_username": "fresheneesz",
+        "author_email": "bitetrudpublic@gmail.com",
+        "author_url": "https:\/\/github.com\/fresheneesz",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/149531?v=3",
+        "message": "doc: clarify Readable._read and Readable.push Minor clarifications around Readable._read and Readable.push to make their implementation\/usage easier to understand. https:\/\/github.com\/joyent\/node\/issues\/14124#issuecomment-115392674 Reviewed-By: James..."
+    },
+    {
+        "sha": "f7af915d52a8eca8d8515c6602bf511db1b55f02",
+        "timestamp": "2015-07-01T19:52:47Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/f7af915d52a8eca8d8515c6602bf511db1b55f02",
+        "author_username": "jasnell",
+        "author_email": "jasnell@gmail.com",
+        "author_url": "https:\/\/github.com\/jasnell",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/439929?v=3",
+        "message": "doc: two minor stream doc improvements per: https:\/\/github.com\/joyent\/node\/issues\/14596 1. document that a runtime error will occur if you attempt to unshift after the end event 2. document that calling read after the end event will return null..."
+    },
+    {
+        "sha": "f91fa5228c6e9c02d4b492f84552423f67a0ba17",
+        "timestamp": "2015-03-03T14:59:07Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/f91fa5228c6e9c02d4b492f84552423f67a0ba17",
+        "author_username": "BSteephenson",
+        "author_email": "benjaminsteephenson@gmail.com",
+        "author_url": "https:\/\/github.com\/BSteephenson",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/7459695?v=3",
+        "message": "docs:events clarify emitter.listener() behavior Clarifies that emitter.listener() returns a copy, not a reference Resolves issue #9022 Reviewed-By: James M Snell <jasnell@gmail.com> PR-URL: https:\/\/github.com\/joyent\/node\/pull\/25635..."
+    },
+    {
+        "sha": "96608335862d0330d7ee756727fb2a7827872d9b",
+        "timestamp": "2015-07-10T00:03:53Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/96608335862d0330d7ee756727fb2a7827872d9b",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge remote-tracking branch 'upstream\/v0.12' Conflicts: src\/node_version.h..."
+    },
+    {
+        "sha": "b8ac6584faf00f6bc9302913ea58e54dcf8f559c",
+        "timestamp": "2015-07-09T23:52:08Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/b8ac6584faf00f6bc9302913ea58e54dcf8f559c",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Now working on 0.12.8..."
+    },
+    {
+        "sha": "bd68784dee004fc8609eb1316982add157ddf764",
+        "timestamp": "2015-07-09T23:51:47Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/bd68784dee004fc8609eb1316982add157ddf764",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge branch 'v0.12.7-release' into v0.12..."
+    },
+    {
+        "sha": "d3492aa7b386946e3a156440cad346e5b0a82838",
+        "timestamp": "2015-07-09T22:40:56Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/d3492aa7b386946e3a156440cad346e5b0a82838",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "2015.07.09, Version 0.12.7 (Stable) * openssl: upgrade to 1.0.1p (CVE-2015-1793) * npm: upgrade to 2.11.3 * V8: cherry-pick JitCodeEvent patch from upstream (Ben Noordhuis) * win,msi: create npm folder in AppData directory (Steven Rockarts)..."
+    },
+    {
+        "sha": "9c5e9fc15595e9fe651548dbf8fcfa97b6e6eb56",
+        "timestamp": "2015-07-09T22:30:29Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/9c5e9fc15595e9fe651548dbf8fcfa97b6e6eb56",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge remote-tracking branch 'upstream\/v0.10' into v0.12 Conflicts: AUTHORS ChangeLog deps\/v8\/src\/log.cc src\/node_version.h..."
+    },
+    {
+        "sha": "e5aaa34ba0c2d3aa54c6f48e3f9ddd0b7b4ce2fb",
+        "timestamp": "2015-07-09T21:58:52Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/e5aaa34ba0c2d3aa54c6f48e3f9ddd0b7b4ce2fb",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Now working on 0.10.41..."
+    },
+    {
+        "sha": "26bb1ad137764fe04d3e2490eb3bf82ce9378a38",
+        "timestamp": "2015-07-09T21:58:16Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/26bb1ad137764fe04d3e2490eb3bf82ce9378a38",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge branch 'v0.10.40-release' into v0.10..."
+    },
+    {
+        "sha": "0439a28d519fb6efe228074b0588a59452fc1677",
+        "timestamp": "2015-07-09T21:19:36Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/0439a28d519fb6efe228074b0588a59452fc1677",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "2015.07.09, Version 0.10.40 (Maintenance) * openssl: upgrade to 1.0.1p * V8: back-port JitCodeEvent patch from upstream (Ben Noordhuis) * win,msi: create npm folder in AppData directory (Steven Rockarts)..."
+    },
+    {
+        "sha": "c5d7b315289c993e9b823ce00c2d8ff21abe7507",
+        "timestamp": "2015-02-17T02:30:28Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/c5d7b315289c993e9b823ce00c2d8ff21abe7507",
+        "author_username": "shigeki",
+        "author_email": "ohtsu@iij.ad.jp",
+        "author_url": "https:\/\/github.com\/shigeki",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/782880?v=3",
+        "message": "openssl: fix keypress requirement in apps on win32 reapply b910613792dac946b295855963869933a9089044 PR: #9451 PR-URL: https:\/\/github.com\/joyent\/node\/pull\/9451 Reviewed-By: Julien Gilli <julien.gilli@joyent.com> PR: #25523 PR-URL: https:\/\/github.com\/..."
+    },
+    {
+        "sha": "7ad593877e4b3fae04652037cc6d7106dc87109a",
+        "timestamp": "2014-01-08T19:05:01Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/7ad593877e4b3fae04652037cc6d7106dc87109a",
+        "author_username": "indutny",
+        "author_email": "fedor.indutny@gmail.com",
+        "author_url": "https:\/\/github.com\/indutny",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/238531?v=3",
+        "message": "deps: fix openssl assembly error on ia32 win32 `x86masm.pl` was mistakenly using .486 instruction set, why `cpuid` (and perhaps others) are requiring .686 . PR: #9451 PR-URL: https:\/\/github.com\/joyent\/node\/pull\/9451 Reviewed-By: Julien Gilli <julien...."
+    },
+    {
+        "sha": "984e7f9e405b7b427d6bd1ee1e89d224521a8da5",
+        "timestamp": "2015-03-18T01:31:29Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/984e7f9e405b7b427d6bd1ee1e89d224521a8da5",
+        "author_username": "shigeki",
+        "author_email": "ohtsu@iij.ad.jp",
+        "author_url": "https:\/\/github.com\/shigeki",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/782880?v=3",
+        "message": "deps: separate sha256\/sha512-x86_64.pl for openssl sha256-x86_64.pl does not exist in the origin openssl distribution. It was copied from sha512-x86_64.pl and both sha256\/sha512 scripts were modified so as to generates only one asm file specified as i..."
+    },
+    {
+        "sha": "82778223444d9717bcd2629443c93677035fc40f",
+        "timestamp": "2015-07-09T16:46:59Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/82778223444d9717bcd2629443c93677035fc40f",
+        "author_username": "shigeki",
+        "author_email": "ohtsu@iij.ad.jp",
+        "author_url": "https:\/\/github.com\/shigeki",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/782880?v=3",
+        "message": "deps: copy all openssl header files to include dir All symlink files in `deps\/openssl\/openssl\/include\/openssl\/` are removed and replaced with real header files to avoid issues on Windows. PR: #25654 PR-URL: https:\/\/github.com\/joyent\/node\/pull\/25654..."
+    },
+    {
+        "sha": "0cf9f27703b0052381dec77c89b41a651c3f2791",
+        "timestamp": "2015-07-09T16:42:17Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/0cf9f27703b0052381dec77c89b41a651c3f2791",
+        "author_username": "shigeki",
+        "author_email": "ohtsu@iij.ad.jp",
+        "author_url": "https:\/\/github.com\/shigeki",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/782880?v=3",
+        "message": "deps: upgrade openssl sources to 1.0.1p This just replaces all sources of openssl-1.0.1p.tar.gz into deps\/openssl\/openssl. PR: #25654 PR-URL: https:\/\/github.com\/joyent\/node\/pull\/25654 Reviewed-By: Julien Gilli <jgilli@fastmail.fm>..."
+    },
+    {
+        "sha": "6aea173e934f9d858545566299113533bf674802",
+        "timestamp": "2015-07-04T18:23:10Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/6aea173e934f9d858545566299113533bf674802",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge remote-tracking branch 'upstream\/v0.12' Conflicts: src\/node_version.h..."
+    },
+    {
+        "sha": "6b489e62d0b65d32b87589bc8a900d68ae6386aa",
+        "timestamp": "2015-07-04T02:35:14Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/6b489e62d0b65d32b87589bc8a900d68ae6386aa",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Now working on 0.12.7..."
+    },
+    {
+        "sha": "9d3288c843d245cfe2c32e4b2b0a8fd058b061c4",
+        "timestamp": "2015-07-04T02:34:23Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/9d3288c843d245cfe2c32e4b2b0a8fd058b061c4",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "Merge branch 'v0.12.6-release' into v0.12..."
+    },
+    {
+        "sha": "0be9a77bb18ec15b4fb6a1fb0762f313b7351201",
+        "timestamp": "2015-07-04T00:33:28Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/0be9a77bb18ec15b4fb6a1fb0762f313b7351201",
+        "author_username": "misterdjules",
+        "author_email": "julien.gilli@joyent.com",
+        "author_url": "https:\/\/github.com\/misterdjules",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/811047?v=3",
+        "message": "2015.07.03, Version 0.12.6 (Stable) * V8: fix out-of-band write in utf8 decoder..."
+    },
+    {
+        "sha": "78b0e30954111cfaba0edbeee85450d8cbc6fdf6",
+        "timestamp": "2015-07-03T22:43:44Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/78b0e30954111cfaba0edbeee85450d8cbc6fdf6",
+        "author_username": "indutny",
+        "author_email": "fedor.indutny@gmail.com",
+        "author_url": "https:\/\/github.com\/indutny",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/238531?v=3",
+        "message": "deps: fix out-of-band write in utf8 decoder Originally reported by: Kris Reeves <kris.re@bbhmedia.com> Reviewed-By: Trevor Norris <trev.norris@gmail.com>..."
+    },
+    {
+        "sha": "dbda13abb6e3ed8990ee1a479c421cffb437c8a9",
+        "timestamp": "2015-05-13T14:32:22Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/dbda13abb6e3ed8990ee1a479c421cffb437c8a9",
+        "author_username": "mhdawson",
+        "author_email": "michael_dawson@ca.ibm.com",
+        "author_url": "https:\/\/github.com\/mhdawson",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/9373002?v=3",
+        "message": "test: Fix test-npm Makefile target for npm 2.8.4 Changes in npm 2.8.4 broke the test-npm target. This change updates to allow the tests to run once again Reviewed-By: Julien Gilli <julien.gilli@joyent.com> PR-URL: https:\/\/github.com\/joyent\/node\/pull..."
+    },
+    {
+        "sha": "8294f32cffe195e6f38ca41ea50d4152db6693c8",
+        "timestamp": "2015-07-01T10:09:34Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/8294f32cffe195e6f38ca41ea50d4152db6693c8",
+        "author_username": "joaocgreis",
+        "author_email": "reis@janeasystems.com",
+        "author_url": "https:\/\/github.com\/joaocgreis",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/134460?v=3",
+        "message": "test: mark microtask-queue-run(-domain) as flaky test-microtask-queue-run and test-microtask-queue-run-domain fail very rarely at least on linux x64, windows 2012r2 x64 and smartos x86 Reviewed-By: Alexis Campailla <alexis@janeasystems.com> PR-URL: h..."
+    },
+    {
+        "sha": "4ffbce417cb4dd76291d601472dabb1e24e9cfe3",
+        "timestamp": "2015-01-12T22:06:06Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/4ffbce417cb4dd76291d601472dabb1e24e9cfe3",
+        "author_username": null,
+        "author_email": "srockarts@invidi.com",
+        "author_url": null,
+        "author_avatar": null,
+        "message": "win,msi: create npm folder in AppData directory Create the empty npm folder in Roaming\\Appdata so that non-Administrator users have a place to store global packages. This fixes the error Error: ENOENT, stat error that occurs when a user tries to run t..."
+    },
+    {
+        "sha": "18d413d29933df8feb1ba775314477cbac89b773",
+        "timestamp": "2015-01-12T22:06:06Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/18d413d29933df8feb1ba775314477cbac89b773",
+        "author_username": null,
+        "author_email": "srockarts@invidi.com",
+        "author_url": null,
+        "author_avatar": null,
+        "message": "win,msi: create npm folder in AppData directory Create the empty npm folder in Roaming\\Appdata so that non-Administrator users have a place to store global packages. This fixes the error Error: ENOENT, stat error that occurs when a user tries to run t..."
+    },
+    {
+        "sha": "13ea50e927546165fa967f25c46d6e7cf825aade",
+        "timestamp": "2014-09-15T10:54:49Z",
+        "url": "https:\/\/github.com\/joyent\/node\/commit\/13ea50e927546165fa967f25c46d6e7cf825aade",
+        "author_username": "yangguo-chromium-org",
+        "author_email": "yangguo@chromium.org",
+        "author_url": "https:\/\/github.com\/yangguo-chromium-org",
+        "author_avatar": "https:\/\/avatars.githubusercontent.com\/u\/2291463?v=3",
+        "message": "V8: remove V8_HOST_CAN_READ_UNALIGNED and its uses Fixes segfault in 32bit SmartOS when built with GCC 4.9. This is the second of two backports from upstream v8: 1. https:\/\/github.com\/v8\/v8-git-mirror\/commit\/90dc5c9e66ef1778cb8425c43c2f37b6799260c3 2..."
+    }
+]
