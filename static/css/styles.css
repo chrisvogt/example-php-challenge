@@ -19,12 +19,15 @@ body {
 
 /*
  * Top navigation
- * Hide default border to remove 1px line.
  */
 .navbar-fixed-top {
   border: 0;
   background: url('https://cdn.rawgit.com/chrisvogt/chrisvogt.me/develop/img/bg-delaunay.png') top center;
   background-size: cover;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+  color: #DFDFDF;
 }
 
 /*
