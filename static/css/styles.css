@@ -9,7 +9,6 @@ body {
   padding-top: 50px;
 }
 
-
 /*
  * Global add-ons
  */
@@ -80,11 +79,9 @@ body {
   background-color: #428bca;
 }
 
-
 /*
  * Main content
  */
-
 .main {
   padding: 20px;
 }
@@ -98,11 +95,9 @@ body {
   margin-top: 0;
 }
 
-
 /*
  * Placeholder dashboard ideas
  */
-
 .placeholders {
   margin-bottom: 30px;
   text-align: center;
@@ -116,6 +111,62 @@ body {
 .placeholder img {
   display: inline-block;
   border-radius: 50%;
+}
+.mega-octicon {
+  transition: color 0.5s ease;
+  color: #CECECE;
+}
+.placeholder:hover .octicon-eye {
+  color: #2DBDFC;
+}
+.placeholder:hover .octicon-star {
+  color: #CCAC00;
+}
+.placeholder:hover .octicon-repo-forked {
+  color: #AEAEAE;
+}
+.placeholder:hover .octicon-issue-opened {
+  color: #CD3F1C;
+}
+
+/**
+ * Hover.css Effects
+ *
+ * @link https://github.com/IanLunn/Hover
+ */
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
 }
 
 /**
