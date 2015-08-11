@@ -1,16 +1,10 @@
-# ghrepo.info
+## This project has moved » GHREPO.info
+
+**This project has moved to [chrisvogt/ghrepo-info](https://github.com/chrisvogt/ghrepo-info/) in order to break free of the constraints of being a fork. You may find the legacy source, forever sheilded from the pernicious sands of time, at [chrisvogt/ghrepo-legacy](https://github.com/chrisvogt/ghrepo-info/).**
 
 A project inspired by [Picmonic/example-php-challenge](https://github.com/Picmonic/example-php-challenge). Queries the GitHub API to pull, store, and display repository information. Specifically the recent commits, for now. Created by @[C1V0](https://www.twitter.com/c1v0).
 
-* View the [static front end layout](http://chrisvogt.github.io/ghrepo-info/static/) live on GitHub Pages.
-* View a live app demo, based on the current master branch, at [ghrepo.info](http://ghrepo.info/r/chrisvogt/projects).
-* View the [ghrepo.info](http://ghrepo.info) home page.
-
-### Resources
-
-Review the original instructions for this challenge in [INSTRUCTIONS.md](INSTRUCTIONS.md).
-
-A [Developer Notes](https://github.com/chrisvogt/example-php-challenge/wiki/Developer-Notes) wiki page has also been created to provide a technical summary.
+View live at [ghrepo.info](http://ghrepo.info).
 
 ### Screenshots
 
@@ -21,15 +15,6 @@ A [Developer Notes](https://github.com/chrisvogt/example-php-challenge/wiki/Deve
 ### License
 
 [MIT License](LICENSE.md)
-
-Copyright (c) 2015 Chris Vogt https://www.chrisvogt.me
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
 ___
 
